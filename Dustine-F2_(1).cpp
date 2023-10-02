@@ -1,0 +1,18 @@
+#include <iostream>
+#include <cstdlib>
+
+using namespace std;
+
+int main(){
+    int n;
+unsigned long long varFaktorial = 1;
+cout << "masukan nilai bilangan bulat positif: ";
+cin >> n;
+for (int i = 1; i< n; ++i)
+{
+    varFaktorial = varFaktorial * i;
+}
+cout << "Nilai Faktorial " << n << " = " << varFaktorial << '\n';
+
+return 0 ;
+}
