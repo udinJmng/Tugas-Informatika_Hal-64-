@@ -5,14 +5,14 @@ using namespace std;
 
 int main(){
     int n;
-unsigned long long varFaktorial = 1;
+unsigned long long snfdsnfsjgnsk = 1;
 cout << "masukan nilai bilangan bulat positif: ";
 cin >> n;
 for (int i = 1; i< n; ++i)
 {
-    varFaktorial = varFaktorial * i;
+    snfdsnfsjgnsk = snfdsnfsjgnsk * i;
 }
-cout << "Nilai Faktorial " << n << " = " << varFaktorial << '\n';
+cout << "Nilai Faktorial " << n << " = " << snfdsnfsjgnsk << '\n';
 
 return 0 ;
 }
